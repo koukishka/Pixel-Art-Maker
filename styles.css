@@ -1,0 +1,57 @@
+
+body {
+    text-align: center;
+}
+#sizePicker
+{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+	margin: 0.2em;
+	cursor: default;
+
+}
+
+h2 {
+	margin: 1em 0 0.25em;
+	cursor: default;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+table{
+	
+	border: 1px solid black;
+	margin: 0 auto;    
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+td
+{
+	cursor: pointer;
+	display:inline-block;
+	border: 1px solid black;
+	margin: 0 auto;    
+	width: 20px;
+	height:20px;
+
+	
+}
+input[type=number] 
+{
+    width: 6em;
+}
+
+#colorPicker,#btn1
+{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	cursor: pointer;
+}
+.def{
+	
+	cursor: default;
+};
